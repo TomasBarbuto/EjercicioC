@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades.Usuarios
 {
-    internal class Operario : Usuario
+    public class Operario : Usuario
     {
         protected string idUsuario;
 

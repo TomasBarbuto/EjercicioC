@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entidades.Usuarios
 {
-    internal class Usuario
+    public class Usuario
     {
         public enum TipoUsuario { Administrador = 1, Empleado = 2 }
         private string nombreUsuario;
@@ -53,7 +53,7 @@ namespace Entidades.Usuarios
             sb.AppendLine($"Nombre: {nombreUsuario}");
             sb.AppendLine($"DNI: {dniUsuario}");
             sb.AppendLine($"Contraseña: {contrasenia}");
-            sb.AppendLine($"Tipo de usuario: {tipoUsuario}");
+            sb.AppendLine($"Tipo de usuario: {(TipoUsuario)tipoUsuario}");
             return sb.ToString();
         }
 

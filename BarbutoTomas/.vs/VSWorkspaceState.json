@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Entidades",
-    "\\ParcialLaboratorio2"
+    "\\Entidades"
   ],
-  "SelectedNode": "\\Entidades\\Operario.cs",
+  "SelectedNode": "\\Entidades\\Entidades.csproj",
   "PreviewInSolutionExplorer": false
 }

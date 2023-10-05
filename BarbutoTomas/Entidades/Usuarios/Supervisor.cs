@@ -7,7 +7,7 @@ using static Entidades.Usuarios.Usuario;
 
 namespace Entidades.Usuarios
 {
-    internal class Supervisor : Operario
+    public class Supervisor : Operario
     {
         //generame el cosntructor
         public Supervisor(string nombreUsuario, int dniUsuario, string contrasenia, int tipoUsuario) : base(nombreUsuario, dniUsuario, contrasenia, tipoUsuario)
@@ -21,14 +21,14 @@ namespace Entidades.Usuarios
         }
 
         //generame el tostring
-        public override string ToString()
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"ID: {idUsuario}");
-            sb.AppendLine($"Nombre: {NombreUsuario}");
-            sb.AppendLine($"DNI: {dniUsuario}");
-            sb.AppendLine($"Tipo de usuario: {tipoUsuario}");
-            return sb.ToString();
-        }
+        //public override string ToString()
+        //{
+        //    StringBuilder sb = new StringBuilder();
+        //    sb.AppendLine($"ID: {idUsuario}");
+        //    sb.AppendLine($"Nombre: {NombreUsuario}");
+        //    sb.AppendLine($"DNI: {dniUsuario}");
+        //    sb.AppendLine($"Tipo de usuario: {tipoUsuario}");
+        //    return sb.ToString();
+        //}
     }
 }

@@ -1,4 +1,4 @@
-using Entidades;
+using Entidades.Usuarios;
 
 namespace ParcialLaboratorio2
 {
@@ -14,7 +14,6 @@ namespace ParcialLaboratorio2
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new VistaInicio());
-            
         }
     }
 }
